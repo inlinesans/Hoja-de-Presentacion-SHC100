@@ -3,20 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - Andre Rivas - SHC100</title>
+    <title>Curriculum Vitae - André Rivas - SHC100</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f6; color: #333; line-height: 1.6; margin: 0; padding: 20px; }
-        .cv-container { max-width: 850px; margin: auto; background: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
-        header { display: flex; align-items: center; border-bottom: 3px solid #2c3e50; padding-bottom: 20px; margin-bottom: 25px; }
-        header img { border-radius: 50%; border: 4px solid #2c3e50; margin-right: 25px; object-fit: cover; }
-        h1 { margin: 0; color: #2c3e50; font-size: 2.2rem; }
-        h2 { color: #2980b9; border-left: 5px solid #2980b9; padding-left: 10px; margin-top: 25px; font-size: 1.4rem; text-transform: uppercase; }
-        .motivation-text { text-align: justify; background: #f9f9f9; padding: 20px; border-radius: 5px; border: 1px solid #eee; }
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            background-color: #f4f7f6; 
+            background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+            color: #333; 
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 40px; 
+            border: 8px solid #2c3e50; 
+        }
+
+        .cv-container { 
+            max-width: 850px; 
+            margin: auto; 
+            background: #fff; 
+            border-radius: 10px; 
+            box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+            overflow: hidden; 
+        }
+
+        header { 
+            display: flex; 
+            align-items: center; 
+            background: linear-gradient(135deg, #1a2a6c, #2c3e50); 
+            color: white;
+            padding: 40px; 
+        }
+
+        header img { 
+            border-radius: 50%; 
+            border: 4px solid rgba(255,255,255,0.3); 
+            margin-right: 25px; 
+            object-fit: cover; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        h1 { margin: 0; color: #fff; font-size: 2.2rem; }
+        
+        .content { padding: 40px; }
+
+        h2 { 
+            color: #2980b9; 
+            border-left: 5px solid #2980b9; 
+            padding-left: 10px; 
+            margin-top: 25px; 
+            font-size: 1.4rem; 
+            text-transform: uppercase; 
+        }
+
+        .motivacion { 
+            text-align: justify; 
+            background: #f9f9f9; 
+            padding: 20px; 
+            border-radius: 5px; 
+            border: 1px solid #eee; 
+            border-left: 4px solid #2980b9;
+        }
+
         table { width: 100%; border-collapse: collapse; margin: 15px 0; }
         th, td { padding: 12px; border: 1px solid #ddd; text-align: left; }
         th { background: #2c3e50; color: white; }
         ul { padding-left: 20px; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
     </style>
 </head>
 <body>
@@ -32,68 +82,68 @@
         </div>
     </header>
 
-    <div class="grid">
+    <div class="content">
         <section>
-            <h2>2. Formación Académica</h2>
+            <h2>Formación Académica</h2>
             <ul>
-                <li><strong>Colegio</strong><br>Americano (Terminado)</li>
-                <li><strong>Ingeniería de Sistemas</strong><br>USFX (En curso)</li>
-                <li><strong>Animación y Diseño Digital</strong><br>USFX (en curso)</li>
+                <li><strong>Colegio:</strong> Americano (Terminado)</li>
+                <li><strong>Ingeniería de Sistemas:</strong> USFX (En curso)</li>
+                <li><strong>Animación y Diseño Digital:</strong> USFX (En curso)</li>
             </ul>
         </section>
 
         <section>
-            <h2>3. Idiomas</h2>
-            <ul>
-                <li><strong>Español:</strong> Nativo</li>
-                <li><strong>Inglés:</strong> Avanzado (Certificado)</li>
-            </ul>
+            <h2>Experiencia e Idiomas</h2>
+            <table>
+                <tr>
+                    <th>Categoría</th>
+                    <th>Detalles / Descripción</th>
+                </tr>
+                <tr>
+                    <td><strong>Experiencia Profesional</strong></td>
+                    <td>
+                        Desarrollador: Creación de mods.<br>
+                        Diseño Gráfico: Diseño publicitario.<br>
+                        Modelado 3D: Modelación de personajes y escenarios.
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Idiomas</strong></td>
+                    <td>
+                        Español.<br>
+                        Inglés.
+                    </td>
+                </tr>
+            </table>
         </section>
-    </div>
 
-    <section>
-        <h2>3. Experiencia Profesional</h2>
-        <ul>
-            <li><strong>Desarrollador Independiente:</strong> Creación de mods.</li>
-            <li><strong>Modelador 3D Freelance:</strong> Diseño de assets y personajes en Blender.</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Otros Cursos y Habilidades</h2>
+            <table>
+                <tr>
+                    <th>Área</th>
+                    <th>Software / Certificaciones</th>
+                </tr>
+                <tr>
+                    <td><strong>Cursos y Seminarios</strong></td>
+                    <td>
+                        Certificación en Inglés Avanzado (Inglés para todos).<br>
+                        Certificación en Diseño Gráfico (Iptabol).
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Habilidades Técnicas</strong></td>
+                    <td>
+                        Programación: HTML/CSS, GDScript, C#, Javascript, Python.<br>
+                        Diseño 3D: Illustrator, Photoshop, After Effects, Blender.<br>
+                        Motores: Godot, Unity.<br>
+                        Edición: DaVinci Resolve, FL Studio.
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-    <section>
-        <h2>4. Otros Cursos y Seminarios</h2>
-        <ul>
-            <li>Certificación en Inglés Avanzado - "Inglés para todos".</li>
-            <li>Certificacion en Diseño Gráfico - "Iptabol".</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>4. Habilidades o Competencias</h2>
-        <table>
-            <tr>
-                <th>Técnicas</th>
-                <th>Software / Herramientas</th>
-            </tr>
-            <tr>
-                <td>Programación</td>
-                <td>HTML/CSS, GDScript, C#, javascript, python</td>
-            </tr>
-            <tr>
-                <td>Diseño/3D</td>
-                <td>Adobe ilustrator, Adobe Photoshop, Adobe after effect , Blender</td>
-            </tr>
-             <tr>
-                <td>Motor grafico</td>
-                <td>Godot, Unity</td>
-            </tr>
-            <tr>
-                <td>Cinematografia y edicion</td>
-                <td>Davinci Resolve, FL Studio </td>
-            </tr>
-        </table>
-    </section>
-
-    <section>
+        <section>
         <h2>¿Por qué decidí estudiar Ingeniería en Sistemas?</h2>
         <div class="motivacion">
             <p>
@@ -108,14 +158,14 @@
         </div>
     </section>
 
-
-    <section>
-        <h2>6. Referencias Personales</h2>
-        <ul>
-            <li><strong>Alex Claros Limon</strong> - Cargo/Parentesco - Telf: 71894146</li>
-            <li><strong>Giovanni Apala Flores</strong> - Cargo/Parentesco - Telf: 7S4423088</li>
-        </ul>
-    </section>
+        <section>
+            <h2>Referencias Personales</h2>
+            <ul>
+                <li><strong>Alex Claros Limon</strong> - Compañero de carrera (Ing. en Diseño y Animación Digital) - Telf: 71894146</li>
+                <li><strong>Giovanni Apala Flores</strong> - Compañero de carrera (Ing. en Diseño y Animación Digital) - Telf: 754423088</li>
+            </ul>
+        </section>
+    </div>
 </div>
 
 </body>
